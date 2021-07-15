@@ -8,5 +8,5 @@ import uz.developer.appexpertserver1.entity.Region;
 import java.util.UUID;
 
 @RepositoryRestResource(path = "payType")
-public interface PayTypeRepository extends JpaRepository<PayType, UUID> {
+public interface PayTypeRepository extends JpaRepository<PayType, Integer> {
 }

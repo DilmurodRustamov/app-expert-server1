@@ -18,7 +18,10 @@ import java.util.UUID;
 @Data
 public class ReqProject {
 
+    @Enumerated(EnumType.STRING)
     private PersonType personType;
+
+    private UUID userId;
 
     private String name;
 

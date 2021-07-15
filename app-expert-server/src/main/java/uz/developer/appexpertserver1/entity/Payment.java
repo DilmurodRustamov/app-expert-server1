@@ -20,10 +20,11 @@ public class Payment extends AbsEntity {
     @ManyToOne
     private PayType payType;
 
-    private double amount;
-
     @ManyToOne
     private Project project;
+
+    private double amount;
+
 
     private Timestamp payDate;
 }

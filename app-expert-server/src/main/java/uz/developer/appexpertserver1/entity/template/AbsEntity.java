@@ -17,7 +17,7 @@ import java.util.UUID;
 
 @Data
 @MappedSuperclass
-public class AbsEntity {
+public abstract class AbsEntity {
 
     @Id
     @Type(type = "org.hibernate.type.PostgresUUIDType")

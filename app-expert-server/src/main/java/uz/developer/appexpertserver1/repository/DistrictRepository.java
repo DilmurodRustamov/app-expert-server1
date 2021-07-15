@@ -8,5 +8,5 @@ import uz.developer.appexpertserver1.entity.Region;
 import java.util.UUID;
 
 @RepositoryRestResource(path = "district")
-public interface DistrictRepository extends JpaRepository<District, UUID> {
+public interface DistrictRepository extends JpaRepository<District, Integer> {
 }
